@@ -1,0 +1,472 @@
+<!doctype html>
+<html class="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Blog | NEXTFRAME - Cinematic Storytelling</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="script/tailwind-config.js"></script>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-background text-on-surface selection:bg-primary-container selection:text-on-primary-container blog-page"
+  >
+    <!-- TopNavBar -->
+    <header
+      class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl border-b border-white/40 shadow-sm"
+    >
+      <nav
+        class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto"
+      >
+        <div class="font-display text-headline-md font-bold text-on-surface">
+          NEXTFRAME
+        </div>
+        <div class="hidden md:flex items-center gap-lg">
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:scale-105 duration-200"
+            href="index.html"
+            >Home</a
+          >
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:scale-105 duration-200"
+            href="about.html"
+            >About</a
+          >
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:scale-105 duration-200"
+            href="portfolio.html"
+            >Portfolio</a
+          >
+          <a
+            class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary pb-1 hover:scale-105 duration-200"
+            href="blog.html"
+            >Blog</a
+          >
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:scale-105 duration-200"
+            href="gallery.html"
+            >Gallery</a
+          >
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:scale-105 duration-200"
+            href="contact.html"
+            >Contact</a
+          >
+        </div>
+        <a
+          class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-label-bold text-label-bold cinematic-gradient-bg hover:opacity-90 active:scale-95 transition-all duration-200 inline-block"
+          href="startwebsite.html"
+        >
+          Start Website
+        </a>
+      </nav>
+    </header>
+    <main class="pt-32 pb-xl">
+      <!-- Hero Section -->
+      <section class="max-w-container-max mx-auto px-gutter mb-xl">
+        <div
+          class="flex flex-col items-center text-center max-w-3xl mx-auto space-y-md"
+        >
+          <span
+            class="inline-block bg-midnight text-primary px-4 py-1.5 rounded-full font-label-bold text-caption tracking-widest uppercase bg-on-background text-primary-fixed"
+            >The Creators Lab</span
+          >
+          <h1
+            class="font-display text-headline-lg-mobile md:text-display text-on-surface"
+          >
+            The Future of
+            <span class="cinematic-gradient-text">Visual Storytelling</span>
+          </h1>
+          <p class="font-body-lg text-body-lg text-on-surface-variant">
+            Expert insights, Filipino creator journeys, and technical guides
+            designed to elevate your cinematic presence.
+          </p>
+        </div>
+      </section>
+      <!-- Featured Article (Glass Bento Pattern) -->
+      <section class="max-w-container-max mx-auto px-gutter mb-xl">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-md h-full">
+          <!-- Large Featured -->
+          <div
+            class="md:col-span-8 group relative overflow-hidden rounded-lg glass-card cursor-pointer"
+          >
+            <div class="aspect-[16/9] w-full overflow-hidden">
+              <img
+                alt="Featured Article"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                data-alt="A cinematic low-angle shot of a high-end cinema camera on a stabilizer being used in a neon-lit urban environment. The lighting is dominated by deep blues and vibrant greens, creating a hyper-modern and fluid aesthetic typical of the NEXTFRAME brand. Soft focus bokeh in the background adds depth, making the camera gear look professional and sleek."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzyvmok2N86OaPZOc8lXiXrGN3b200P52nJlRUyz23RU9fxWrvDFhFLu_zFEHRNn0qi-Zz4p_wm5Q8fUvKWlIyx78-fQ5kjx62M9dzC5o2mYBlL-gwRSYTo-QjXiR5wYj7Uv2gySPb48_oTWLg_BVsFoeQ-1maCarqfYfc-oRbM40PCp3BdTmjlfcfNjT9goF5KzYKulfgsUOJvpyg5-BxDKrJaCdY8lrAgr-RWK5ydsTs7lIHGNEHOIfh9rQrW-oBagyjl-wKJkHg"
+              />
+            </div>
+            <div class="p-lg space-y-sm">
+              <div class="flex items-center gap-sm">
+                <span class="text-primary font-label-bold text-caption"
+                  >MASTERCLASS</span
+                >
+                <span
+                  class="w-1.5 h-1.5 rounded-full bg-outline-variant"
+                ></span>
+                <span class="text-on-surface-variant font-body-md text-caption"
+                  >12 Min Read</span
+                >
+              </div>
+              <h2
+                class="font-display text-headline-lg text-on-surface group-hover:text-primary transition-colors"
+              >
+                Framing the Future: Advanced Lighting for Filipino Digital
+                Creators
+              </h2>
+              <p
+                class="font-body-md text-body-md text-on-surface-variant max-w-2xl"
+              >
+                Learn how to manipulate natural and synthetic light to create
+                high-end cinematic visuals using budget-friendly equipment
+                available locally.
+              </p>
+              <div class="flex items-center gap-base pt-md">
+                <img
+                  alt="Author"
+                  class="w-10 h-10 rounded-full object-cover"
+                  data-alt="A professional headshot of a young creative director with a clean, modern aesthetic. The lighting is soft and directional, with a neutral white background that complements the glassmorphism UI. The subject has an ambitious and confident expression."
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTS91Iq3jGI27ZoQSxB1NURxYUbhO2lyuWdXcPM-wgv9qC4vRVRhT2XLIv6l_0iFxzXF3HJmFvSQ1_cSsgDWu5FJoEH6g8DZ6HoiXx1mKN7O1LpBjziLPQU6_EWkCIW_ax3QPFwULx3Ihc2NDZosruNzAITr43BKtKRWtYIu_BqPibn_2GyKpr84z-flILe2oTaYI1-vwG0K7LbUbjAIz6ZVPouWxuCw3m30g60_-u16cT11XlcUImwb189PazuP3kpUUm6EzBo4gm"
+                />
+                <span class="font-label-bold text-label-bold">Ryan Azur</span>
+              </div>
+            </div>
+          </div>
+          <!-- Secondary Featured -->
+          <div class="md:col-span-4 grid grid-rows-2 gap-md">
+            <div
+              class="glass-card rounded-lg p-md flex flex-col justify-between group cursor-pointer"
+            >
+              <div class="space-y-sm">
+                <span class="text-secondary font-label-bold text-caption"
+                  >STORIES</span
+                >
+                <h3
+                  class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors"
+                >
+                  How I Started with ₱10,000 and a Phone
+                </h3>
+              </div>
+              <div class="mt-md flex items-center justify-between">
+                <span class="text-on-surface-variant text-caption"
+                  >Jan 24, 2026</span
+                >
+                <span
+                  class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform"
+                  >arrow_forward</span
+                >
+              </div>
+            </div>
+            <div
+              class="glass-card rounded-lg p-md flex flex-col justify-between group cursor-pointer overflow-hidden relative"
+            >
+              <div class="relative z-10 space-y-sm">
+                <span
+                  class="text-primary-container bg-on-background px-3 py-1 rounded-full text-caption font-label-bold inline-block"
+                  >HOT TREND</span
+                >
+                <h3
+                  class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors"
+                >
+                  The 2026 Filipino Creator Economy Outlook
+                </h3>
+              </div>
+              <div
+                class="mt-md flex items-center justify-between relative z-10"
+              >
+                <span class="text-on-surface-variant text-caption"
+                  >8 Min Read</span
+                >
+                <span
+                  class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform"
+                  >trending_up</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Category Filter -->
+      <section class="max-w-container-max mx-auto px-gutter mb-lg">
+        <div class="flex overflow-x-auto gap-base pb-base scrollbar-hide">
+          <button
+            class="whitespace-nowrap px-6 py-2 rounded-full bg-on-background text-primary-fixed font-label-bold"
+          >
+            All Stories
+          </button>
+          <button
+            class="whitespace-nowrap px-6 py-2 rounded-full glass-card hover:bg-surface-container-high transition-colors font-label-bold"
+          >
+            Beginner Guides
+          </button>
+          <button
+            class="whitespace-nowrap px-6 py-2 rounded-full glass-card hover:bg-surface-container-high transition-colors font-label-bold"
+          >
+            Gear Reviews
+          </button>
+          <button
+            class="whitespace-nowrap px-6 py-2 rounded-full glass-card hover:bg-surface-container-high transition-colors font-label-bold"
+          >
+            Interviews
+          </button>
+          <button
+            class="whitespace-nowrap px-6 py-2 rounded-full glass-card hover:bg-surface-container-high transition-colors font-label-bold"
+          >
+            Creative Workflow
+          </button>
+        </div>
+      </section>
+      <!-- Main Blog Grid -->
+      <section class="max-w-container-max mx-auto px-gutter">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-lg">
+          <!-- Article Card 1 -->
+          <div class="group scroll-reveal">
+            <div class="rounded-lg overflow-hidden glass-card mb-md">
+              <img
+                alt="Storytelling"
+                class="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-105"
+                data-alt="A flat-lay perspective of a modern creative workspace featuring a high-end laptop, a digital sketchpad, and a variety of colorful lens filters. The scene is illuminated with a soft glow, showcasing a mix of vibrant greens and tech-focused greys, aligned with a professional and hyper-modern educational aesthetic."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXwItNJ4R5_jf6LxcuwYvSqgZgJ6fQl0nTiTMDvNuVtkG9h50Ct6lkzy8EBbi0RGXkyeSHQbL3gywnAzra9q2dUn6tvydoCYwfR-kW_O-6eEYNGS4aqXlEDHv3ljo0aF0ubiSFr5CVIK8WYjYsEMoobnjyLch5XMFN8ydYe2QJ_BKQ7gw2tkslBgM5G9jSrCdM6vcWbhLwtg_8D1ZEmzm2LMC-AYxIQVb84sGyINtV8PTH-owkHdwM3U2JHoZ-k4qOvxxmp-tqL_Es"
+              />
+            </div>
+            <div class="px-base space-y-base">
+              <span
+                class="text-on-surface-variant font-label-bold text-caption tracking-widest uppercase"
+                >Guide</span
+              >
+              <h4
+                class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors"
+              >
+                Digital Storytelling 101: Hook Your Audience
+              </h4>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                The psychology behind why some Filipino creator videos go viral
+                while others disappear in the noise.
+              </p>
+            </div>
+          </div>
+          <!-- Article Card 2 -->
+          <div class="group scroll-reveal">
+            <div class="rounded-lg overflow-hidden glass-card mb-md">
+              <img
+                alt="Audio Tips"
+                class="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-105"
+                data-alt="A close-up artistic shot of a professional condenser microphone in a sound-dampened studio. The lighting is moody and cinematic, with soft purple and teal rim lights emphasizing the textures of the acoustic foam. The image feels fast, responsive, and visually stimulating, fitting the NEXTFRAME creator economy vibe."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhMXYGTbM-ak4ZW6xaPFZMFjg-5i0QAIl-yIKsEVifqNCj_zoddac5It46TP6DbWb0QepI5GiqckAu1NBy2gvo33UWh8tj8VZGFcpO-rn344PKqjkGJDlqvTgw90Ix-z42ie7U-dPMqHQ_yCPYhyYvhjXLrTd_frHLSuA-aH6_8Wt7UqxmxpWH1wqjrR7PiuYSKpR9zvblTB6bo4oKF6VpLrv915nTZ-DG20pLvnLElWf9B7mMqk3Y5yuxJ1IaZdUAQObn6xLdUMvc"
+              />
+            </div>
+            <div class="px-base space-y-base">
+              <span
+                class="text-on-surface-variant font-label-bold text-caption tracking-widest uppercase"
+                >Audio</span
+              >
+              <h4
+                class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors"
+              >
+                The Invisible Narrative: Sound Design Hacks
+              </h4>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                How to use Foley and ambient layers to bring your visual stories
+                to life.
+              </p>
+            </div>
+          </div>
+          <!-- Article Card 3 -->
+          <div class="group scroll-reveal">
+            <div class="rounded-lg overflow-hidden glass-card mb-md">
+              <img
+                alt="Editing"
+                class="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-105"
+                data-alt="A multi-monitor setup showing a complex video editing timeline with vibrant color-coded clips. The room is dim, with the screen glow casting soft white and blue light onto the desk surface. The aesthetic is fast-paced and high-energy, highlighting a professional video editing suite."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjFPnF_MJZLrPA4iDLa5sXw78OrObPoWXxIu1Cy34Ra3Wde2mKUyGQ8q6xp9OlOkl27dBI52hIL9OG_AO7zKm5S37rp99jr78w0uzeN85915U4HDJMLb19Sr_nG4J4vacnBnQJz5VMqkYyxmj1v_t598a4Lh1i3VLlIOIIS-J0JND53g9frsspZOfKIiR_axEKJzTrrDXNT7wtPAY7mz36texjbWrtMpJ5l6JOBb7xGkTVpMY7e41RYviyyKlMVOS3HnE-4MzTQAZg"
+              />
+            </div>
+            <div class="px-base space-y-base">
+              <span
+                class="text-on-surface-variant font-label-bold text-caption tracking-widest uppercase"
+                >Workflow</span
+              >
+              <h4
+                class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors"
+              >
+                Speed Up Your Edit: Pro Shortcuts
+              </h4>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Save hours every week by mastering these high-speed editing
+                techniques for school projects, reels, and client work.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Newsletter Card -->
+        <div
+          class="mt-xl glass-card rounded-lg p-xl relative overflow-hidden group"
+        >
+          <div
+            class="absolute -right-20 -top-20 w-80 h-80 cinematic-gradient-bg opacity-10 rounded-full blur-3xl transition-transform duration-1000 group-hover:scale-110"
+          ></div>
+          <div
+            class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-lg"
+          >
+            <div class="max-w-xl space-y-sm">
+              <h3 class="font-display text-headline-lg text-on-surface">
+                Stay in the <span class="cinematic-gradient-text">Loop</span>
+              </h3>
+              <p class="font-body-lg text-body-lg text-on-surface-variant">
+                Join 20,000+ Filipino creators receiving weekly storytelling
+                tips and industry trends directly in their inbox across the
+                Philippines.
+              </p>
+            </div>
+            <div class="w-full md:w-auto flex flex-col sm:flex-row gap-base">
+              <input
+                class="bg-surface-container-highest border-none rounded-full px-6 py-3 focus:ring-2 focus:ring-primary min-w-[300px] font-body-md"
+                placeholder="Email address"
+                type="email"
+              />
+              <button
+                class="cinematic-gradient-bg text-on-primary font-label-bold px-8 py-3 rounded-full hover:shadow-lg transition-all active:scale-95"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-surface-container-low w-full py-xl">
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 gap-lg px-gutter max-w-container-max mx-auto"
+      >
+        <div class="space-y-md">
+          <div class="font-display text-headline-md font-bold text-on-surface">
+            NEXTFRAME
+          </div>
+          <p class="font-body-md text-body-md text-on-surface-variant">
+            Elevating the next generation of Filipino digital storytellers
+            through immersive education and community.
+          </p>
+        </div>
+        <div class="space-y-md">
+          <h5 class="font-label-bold text-label-bold text-on-surface uppercase">
+            Company
+          </h5>
+          <ul
+            class="space-y-sm font-body-md text-body-md text-on-surface-variant"
+          >
+            <li>
+              <a class="hover:text-primary transition-colors" href="#"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-primary transition-colors" href="#"
+                >Creator Programs</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-primary transition-colors" href="#"
+                >Media Kit</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-primary transition-colors" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="space-y-md">
+          <h5 class="font-label-bold text-label-bold text-on-surface uppercase">
+            Social
+          </h5>
+          <ul
+            class="space-y-sm font-body-md text-body-md text-on-surface-variant"
+          >
+            <li>
+              <a class="hover:text-primary transition-colors" href="#"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-primary transition-colors" href="#"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-primary transition-colors" href="#"
+                >X / Twitter</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-primary transition-colors" href="#"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="space-y-md">
+          <h5 class="font-label-bold text-label-bold text-on-surface uppercase">
+            Legal
+          </h5>
+          <ul
+            class="space-y-sm font-body-md text-body-md text-on-surface-variant"
+          >
+            <li>
+              <a class="hover:text-primary transition-colors" href="#"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-primary transition-colors" href="#"
+                >Terms of Service</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-primary transition-colors" href="#"
+                >Cookie Policy</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="max-w-container-max mx-auto px-gutter mt-xl pt-lg border-t border-surface-container-highest flex flex-col md:flex-row justify-between items-center gap-md"
+      >
+        <span class="font-body-md text-body-md text-on-surface-variant"
+          >© 2026 NEXTFRAME. Create. Share. Inspire.</span
+        >
+        <div class="flex items-center gap-md">
+          <button
+            class="p-2 rounded-full hover:bg-surface-container-high transition-colors"
+          >
+            <span class="material-symbols-outlined text-on-surface-variant"
+              >language</span
+            >
+          </button>
+          <button
+            class="p-2 rounded-full hover:bg-surface-container-high transition-colors"
+          >
+            <span class="material-symbols-outlined text-on-surface-variant"
+              >dark_mode</span
+            >
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>

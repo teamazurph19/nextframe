@@ -1,0 +1,366 @@
+<!doctype html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Gallery | NEXTFRAME</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="script/tailwind-config.js"></script>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-background text-on-surface font-body-md selection:bg-primary-container selection:text-on-primary-container gallery-page"
+  >
+    <!-- TopNavBar -->
+    <header
+      class="fixed top-0 w-full z-50 bg-white/70 dark:bg-on-background/70 backdrop-blur-xl border-b border-white/40 dark:border-white/10 shadow-sm"
+    >
+      <nav
+        class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto"
+      >
+        <a
+          class="font-display text-headline-md font-bold text-on-surface dark:text-inverse-on-surface tracking-tight"
+          href="index.html"
+          >NEXTFRAME</a
+        >
+        <!-- Desktop Links -->
+        <div class="hidden md:flex items-center gap-lg">
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:scale-105 duration-200"
+            href="index.html"
+            >Home</a
+          >
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:scale-105 duration-200"
+            href="about.html"
+            >About</a
+          >
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:scale-105 duration-200"
+            href="portfolio.html"
+            >Portfolio</a
+          >
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:scale-105 duration-200"
+            href="blog.html"
+            >Blog</a
+          >
+          <a
+            class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary pb-1 hover:scale-105 duration-200"
+            href="gallery.html"
+            >Gallery</a
+          >
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:scale-105 duration-200"
+            href="contact.html"
+            >Contact</a
+          >
+        </div>
+        <a
+          class="gradient-button text-white px-6 py-2.5 rounded-full font-bold text-label-bold inline-block"
+          href="startwebsite.html"
+        >
+          Start Website
+        </a>
+      </nav>
+    </header>
+    <main class="pt-32 pb-xl">
+      <!-- Hero Section -->
+      <section class="max-w-container-max mx-auto px-gutter mb-xl text-center">
+        <h1
+          class="font-display text-headline-lg-mobile md:text-display mb-base gradient-text"
+        >
+          Visual Narrative
+        </h1>
+        <p
+          class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto"
+        >
+          A curated exploration of campus creativity, creator workspaces,
+          Filipino visual stories, and professional digital environments.
+        </p>
+      </section>
+      <!-- Filter Chips -->
+      <section
+        class="max-w-container-max mx-auto px-gutter mb-lg flex flex-wrap justify-center gap-sm"
+      >
+        <button
+          class="px-6 py-2 rounded-full bg-on-background text-white font-label-bold text-label-bold transition-all hover:scale-105"
+        >
+          All Works
+        </button>
+        <button
+          class="px-6 py-2 rounded-full glass-card text-on-surface-variant font-label-bold text-label-bold hover:bg-primary-container hover:text-on-primary-container"
+        >
+          Workspaces
+        </button>
+        <button
+          class="px-6 py-2 rounded-full glass-card text-on-surface-variant font-label-bold text-label-bold hover:bg-primary-container hover:text-on-primary-container"
+        >
+          Photography
+        </button>
+        <button
+          class="px-6 py-2 rounded-full glass-card text-on-surface-variant font-label-bold text-label-bold hover:bg-primary-container hover:text-on-primary-container"
+        >
+          Gaming
+        </button>
+        <button
+          class="px-6 py-2 rounded-full glass-card text-on-surface-variant font-label-bold text-label-bold hover:bg-primary-container hover:text-on-primary-container"
+        >
+          Minimalism
+        </button>
+      </section>
+      <!-- Gallery Grid -->
+      <section class="max-w-container-max mx-auto px-gutter">
+        <div class="masonry-grid">
+          <!-- Item 1 -->
+          <div
+            class="masonry-item group relative overflow-hidden rounded-lg glass-card cursor-pointer"
+          >
+            <img
+              class="w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
+              data-alt="A minimalist and sleek workspace featuring a wide wooden desk with a single high-end monitor displaying abstract green waves. The room is flooded with soft morning sunlight casting long shadows. Minimalist decor includes a small potted plant and a metallic desk lamp. The overall aesthetic is calm, clean, and highly professional."
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaJxe7co1K184FlgpZOkXBVmoq9JHRtJWhiYk6dhqz126vMxy_-gPozz6jw9_HppYk7igbRAdQrSoMqQZxzTpE67F9GQbQinjYueJW0W1HMvy5EQQ6t2yRUO0_pzWRU83hXhDOxf54_5roVz_bo06PcVZ-YKsLI2Vd9l-Ek9E40aFzAeIzOQ3gojhT_KNt-QaNVumJwSH9cnL9QnT_-rlo0w5ROAJbqjaEOuajFxdUMlZJEJ4lqJZa9-WPu3Lk8dyzpOGQN6dSmeT-"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-on-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-md"
+            >
+              <span
+                class="text-primary-fixed font-label-bold text-caption tracking-widest uppercase mb-xs"
+                >Lifestyle</span
+              >
+              <h3 class="text-white font-headline-md text-headline-md">
+                The Makati Creator Desk
+              </h3>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div
+            class="masonry-item group relative overflow-hidden rounded-lg glass-card cursor-pointer"
+          >
+            <img
+              class="w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
+              data-alt="A high-performance gaming setup in a dimly lit room featuring vibrant neon green and deep blue RGB lighting. Multiple curved monitors display intense digital landscapes. The mechanical keyboard glows with customizable lighting, and a high-end gaming chair sits ready. The mood is high-energy, futuristic, and technologically advanced."
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8cUJN5MwWD5n7nxgOO7q39E00JuqdAaOvpjA5vqr9N2WnGB7FxF8vDs208H2QYkj5Tzdur4rjdAVOQM3KY4jjLmAeu9mjrPwCcjX0AbpDRDdYaWnK8uB-meiuE5XdmOqZElTWJiunidRbMC6i_zzChVWlQoYFbBvoH-euPtNtXusmbNOCXowmsAhuDqI4Y4mx8Fth8x-JfQIyCp8MzCaMVLJQ8Kb1TtkTrjlILpVArnxYu5YMhEDp2xceNfkv6lQPZrr9085jdsI9"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-on-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-md"
+            >
+              <span
+                class="text-primary-fixed font-label-bold text-caption tracking-widest uppercase mb-xs"
+                >Gaming</span
+              >
+              <h3 class="text-white font-headline-md text-headline-md">
+                Esports Night in Manila
+              </h3>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div
+            class="masonry-item group relative overflow-hidden rounded-lg glass-card cursor-pointer"
+          >
+            <img
+              class="w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
+              data-alt="A professional photography studio interior with large windows and industrial architecture. A high-end mirrorless camera is mounted on a heavy-duty tripod, pointed toward a bright product staging area. The lighting is meticulously controlled with softboxes. The color palette is neutral with industrial grey and warm wood accents."
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBogLF5C_eIWEkbkPtPiF6PM7zLMK82PFae3hJZKZjlB1-tZgEuLs7jCu8h8Q-eBBpFnMy5oepJ4tJMP32W7h-RrrnHp8i7naa6ZRB0maFyjR-v2k__VEAVYqHEiTakUftniaKgGX1bHROM7FNWg40Y8y1X96jU-UlOXwSXHrzfBO5yuVjX9PrnWmcXHYH6EK8KD7oE7_H0TNYwRbg654mP3xDAvS32c_QilwFrjbCLFr1e5FZcighgk7lIhNItRj3xBHZxdYGfCEcC"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-on-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-md"
+            >
+              <span
+                class="text-primary-fixed font-label-bold text-caption tracking-widest uppercase mb-xs"
+                >Photography</span
+              >
+              <h3 class="text-white font-headline-md text-headline-md">
+                Studio Frames
+              </h3>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div
+            class="masonry-item group relative overflow-hidden rounded-lg glass-card cursor-pointer"
+          >
+            <img
+              class="w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
+              data-alt="An artistic close-up of a high-end designer desk accessory set made of brushed aluminum and dark walnut. The items are arranged with geometric precision on a white surface. Soft side-lighting highlights the textures and clean lines. The vibe is sophisticated, academic, and modern, utilizing a limited monochrome palette."
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAaP4rvIC6VRxVxrKE6EYNP63LOGWI_k4y3ZLoJGt7Ls9CK77M350TWHZot9UnBD0R5kOOBskXKy8XswMcLvF_bH14oRIDQXPeBQUag6c4SspfVD-Iclq33meCWeE7E3sMK09OplUGHc_WxsmmO4UNX0Oi8uW3qWB8M7kHDPvYRJsMmoZU9zdnBN0GE6eAMSaGWgRwWgPVsU4hmFuB0OGecom2p-jnZHlmW3UwAJJcnZNVmd9zF_KAxPLFDl9XNUNqrxsdcu-u5pHM"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-on-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-md"
+            >
+              <span
+                class="text-primary-fixed font-label-bold text-caption tracking-widest uppercase mb-xs"
+                >Minimalism</span
+              >
+              <h3 class="text-white font-headline-md text-headline-md">
+                Clean Desk Culture
+              </h3>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div
+            class="masonry-item group relative overflow-hidden rounded-lg glass-card cursor-pointer"
+          >
+            <img
+              class="w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
+              data-alt="A creative professional's multi-monitor workstation featuring 5K displays, a high-fidelity sound system with wooden speakers, and a large tablet for digital illustration. The desk is a solid slab of live-edge oak. The background features a bookshelf filled with design volumes. The lighting is warm and inviting, perfect for long creative sessions."
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIEX4CvW3LPBgA1QX95_5eJxfaE0knjxcKaaEE8JHc4JLwOy8HLpeVtppFj-36WCuf5NWyg-YGMYB0l3GHkmqggGCXk55xGCFxWmHFxvIRsxQGhNNcDbpfgWEL4Y9W-ZJ5XtZ5hB-W_aHUKtnjyz8DkkqG2BFLY_I9agmToOWkkPu6MhtgQUgVo8h3v_iD4KdeboR3-tYgfFxYQLWkt__37XNNWicHmYqG5ddpc-DRXxCoyi9QCANRH5VpK7eZCQPisZpBle9gD_Va"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-on-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-md"
+            >
+              <span
+                class="text-primary-fixed font-label-bold text-caption tracking-widest uppercase mb-xs"
+                >Workspaces</span
+              >
+              <h3 class="text-white font-headline-md text-headline-md">
+                The Filipino Creator Suite
+              </h3>
+            </div>
+          </div>
+          <!-- Item 6 -->
+          <div
+            class="masonry-item group relative overflow-hidden rounded-lg glass-card cursor-pointer"
+          >
+            <img
+              class="w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
+              data-alt="A cinematic interior shot of a modern home theater or media room. Large plush seating faces an oversized screen with cinematic backlighting. The walls are soundproofed with decorative dark panels. A soft glow from floor-level LEDs guides the eye. The atmosphere is immersive, cozy, and luxurious, using deep charcoal and amber tones."
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCo6XNK0LtCJkLVAprBfc5jx5qr1XA0Lqv1Xc2QwHMJYPsl5gghhr0smJHoKGB8MdBJKa4lvio9wBnMCPf7ysVsiHU59si-wfJMpIgZL57fJQeeO55V4-AW-fNlaNgcBQzspF3FoW6IXxiiS060AeW1ZMMBcESZjDgYUGjlfQ4YSBRVvlyJEMli3ehEDm8pU-CMkguIbXnTGK1hiKSFYAJ3X96rwP9sewFF5VLQL9KU3UaV9pQ0gsJm4r73YpLH15_2orCZ6OMoebmh"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-on-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-md"
+            >
+              <span
+                class="text-primary-fixed font-label-bold text-caption tracking-widest uppercase mb-xs"
+                >Gaming</span
+              >
+              <h3 class="text-white font-headline-md text-headline-md">
+                Weekend Gaming Hub
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA Section -->
+      <section class="mt-xl max-w-container-max mx-auto px-gutter">
+        <div
+          class="glass-card rounded-lg p-lg md:p-xl flex flex-col md:flex-row justify-between items-center gap-lg"
+        >
+          <div class="text-center md:text-left">
+            <h2 class="font-display text-headline-lg mb-base">
+              Ready to Frame Your Story?
+            </h2>
+            <p class="font-body-md text-on-surface-variant max-w-lg">
+              Join Filipino student creators and young professionals redefining
+              visual storytelling for the modern web.
+            </p>
+          </div>
+          <a
+            class="gradient-button text-white px-xl py-4 rounded-full font-bold text-label-bold text-lg hover:scale-105 active:scale-95 duration-150 inline-block"
+            href="startwebsite.html"
+          >
+            Start Your Website
+          </a>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer
+      class="bg-surface-container-low dark:bg-inverse-surface w-full py-xl transition-all duration-300"
+    >
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 gap-lg px-gutter max-w-container-max mx-auto"
+      >
+        <div class="flex flex-col gap-base">
+          <h3 class="font-display text-headline-md font-bold text-on-surface">
+            NEXTFRAME
+          </h3>
+          <p class="font-body-md text-body-md text-on-surface-variant max-w-xs">
+            Elevating Filipino digital narratives through professional design,
+            campus creativity, and cinematic aesthetics.
+          </p>
+        </div>
+        <div class="flex flex-col gap-sm">
+          <h4
+            class="font-label-bold text-label-bold text-primary tracking-widest uppercase"
+          >
+            Social
+          </h4>
+          <a
+            class="text-on-surface-variant hover:text-primary transition-colors"
+            href="#"
+            >Facebook</a
+          >
+          <a
+            class="text-on-surface-variant hover:text-primary transition-colors"
+            href="#"
+            >Instagram</a
+          >
+          <a
+            class="text-on-surface-variant hover:text-primary transition-colors"
+            href="#"
+            >TikTok</a
+          >
+          <a
+            class="text-on-surface-variant hover:text-primary transition-colors"
+            href="#"
+            >LinkedIn</a
+          >
+        </div>
+        <div class="flex flex-col gap-sm">
+          <h4
+            class="font-label-bold text-label-bold text-primary tracking-widest uppercase"
+          >
+            Legal
+          </h4>
+          <a
+            class="text-on-surface-variant hover:text-primary transition-colors"
+            href="#"
+            >Privacy Policy</a
+          >
+          <a
+            class="text-on-surface-variant hover:text-primary transition-colors"
+            href="#"
+            >Terms of Service</a
+          >
+        </div>
+        <div class="flex flex-col gap-sm">
+          <h4
+            class="font-label-bold text-label-bold text-primary tracking-widest uppercase"
+          >
+            Newsletter
+          </h4>
+          <div class="relative">
+            <input
+              class="w-full bg-white border-none rounded-full px-6 py-3 focus:ring-2 focus:ring-primary"
+              placeholder="juan@example.com"
+              type="email"
+            />
+            <button
+              class="absolute right-1 top-1 bg-primary text-white px-4 py-2 rounded-full material-symbols-outlined"
+            >
+              arrow_forward
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mt-xl text-center border-t border-on-surface-variant/10 pt-lg max-w-container-max mx-auto px-gutter"
+      >
+        <p class="font-body-md text-body-md text-on-surface-variant opacity-70">
+          © 2026 NEXTFRAME. Create. Share. Inspire.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>

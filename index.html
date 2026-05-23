@@ -1,0 +1,756 @@
+<!doctype html>
+<html class="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>NEXTFRAME | Create. Share. Inspire.</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="script/tailwind-config.js"></script>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-background text-on-background font-body-md selection:bg-primary-container selection:text-on-primary-container index-page"
+  >
+    <!-- Top Navigation Bar -->
+    <nav
+      class="fixed top-0 w-full z-50 bg-white/70 dark:bg-on-background/70 backdrop-blur-xl border-b border-white/40 dark:border-white/10 shadow-sm"
+    >
+      <div
+        class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto"
+      >
+        <div
+          class="font-display text-headline-md font-bold text-on-surface dark:text-inverse-on-surface"
+        >
+          NEXTFRAME
+        </div>
+        <!-- Desktop Links -->
+        <div class="hidden md:flex gap-lg items-center">
+          <a
+            class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary pb-1"
+            href="index.html"
+          >
+            Home
+          </a>
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors"
+            href="about.html"
+          >
+            About
+          </a>
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors"
+            href="portfolio.html"
+          >
+            Portfolio
+          </a>
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors"
+            href="blog.html"
+          >
+            Blog
+          </a>
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors"
+            href="gallery.html"
+          >
+            Gallery
+          </a>
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors"
+            href="contact.html"
+          >
+            Contact
+          </a>
+        </div>
+        <a
+          class="bg-primary text-on-primary px-6 py-2 rounded-full font-label-bold text-label-bold hover:scale-105 transition-transform duration-200 active:scale-95 inline-block"
+          href="startwebsite.html"
+        >
+          Start Website
+        </a>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <header class="relative pt-xl pb-lg md:pt-40 md:pb-xl overflow-hidden">
+      <!-- Background Elements -->
+      <div
+        class="absolute top-0 right-0 -z-10 w-2/3 h-full opacity-20 blur-3xl hero-gradient rounded-full translate-x-1/2 -translate-y-1/2"
+      ></div>
+      <div
+        class="absolute bottom-0 left-0 -z-10 w-1/2 h-2/3 opacity-10 blur-3xl bg-secondary-container rounded-full -translate-x-1/4 translate-y-1/4"
+      ></div>
+      <div
+        class="max-w-container-max mx-auto px-gutter grid grid-cols-1 md:grid-cols-2 gap-lg items-center"
+      >
+        <div class="space-y-md reveal-item" data-reveal-delay="100">
+          <div
+            class="inline-flex items-center gap-base px-sm py-xs bg-surface-container rounded-full"
+          >
+            <span class="material-symbols-outlined text-primary text-body-md"
+              >movie_edit</span
+            >
+            <span
+              class="font-label-bold text-label-bold text-on-surface-variant"
+              >FILIPINO CREATORS IN MOTION</span
+            >
+          </div>
+          <h1
+            class="font-display text-headline-lg-mobile md:text-display text-on-surface"
+          >
+            Create. <br />
+            <span class="text-gradient">Share. Inspire.</span>
+          </h1>
+          <p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg">
+            Join a creative space for young Filipino digital storytellers. From
+            campus vlogs and gaming edits to short films and portfolio websites,
+            build your craft with NEXTFRAME.
+          </p>
+          <div class="flex flex-wrap gap-md pt-base">
+            <a
+              class="hero-gradient text-on-primary px-xl py-4 rounded-full font-label-bold text-label-bold shadow-lg hover:shadow-primary-container/20 transition-all flex items-center gap-base group"
+              href="startwebsite.html"
+            >
+              Join the Workshop
+              <span
+                class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
+                >arrow_forward</span
+              >
+            </a>
+            <a
+              class="border-2 border-outline-variant text-on-surface px-xl py-4 rounded-full font-label-bold text-label-bold hover:bg-surface-container transition-colors"
+              href="gallery.html"
+            >
+              Explore Gallery
+            </a>
+          </div>
+        </div>
+        <div class="relative reveal-item" data-reveal-delay="300">
+          <div
+            class="glass-card rounded-xl p-base aspect-video overflow-hidden shadow-2xl animate-float"
+          >
+            <img
+              class="w-full h-full object-cover rounded-DEFAULT"
+              data-alt="A professional young digital creator with sleek headphones sitting in a futuristic, neon-lit studio. They are focused on a multi-monitor setup displaying complex video editing software with vibrant timelines. The lighting is a cinematic blend of deep teals and electric greens, creating a high-energy, ambitious atmosphere. The room features minimalist acoustic panels and soft glowing led strips that emphasize a hyper-modern aesthetic."
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuArGMPxJzUw5EeXrZ-peTnai0X1yZBN0yuihbbnlE1RmOnFk08n4s4BYNP3blx9xua6MYALtxrCBQ897H9HLCcjMfFPIHfdtESBdE3PcsqBfjoMiKm-Ey5f7lxTbeuveuv6LLyNmYRT6byPPSlMedfCt3IY2HxSVYxjoZnOd6SlLE6zOAWXx52fsPqQ5_ba2xZS2UfBspxNcfpBdNsBgaVThZUk81bxnYyBVriVMX69u7yEfPQQdy-cgpLBfgMhuUvDwTjV_2u1cA6T"
+            />
+          </div>
+          <!-- Floating Stats Overlay -->
+          <div
+            class="absolute -bottom-8 -left-8 glass-card p-md rounded-lg flex items-center gap-md"
+          >
+            <div
+              class="w-12 h-12 bg-primary-container rounded-full flex items-center justify-center text-on-primary-container"
+            >
+              <span class="material-symbols-outlined">trending_up</span>
+            </div>
+            <div>
+              <div class="font-display text-headline-md">3.2K+</div>
+              <div class="font-caption text-caption text-on-surface-variant">
+                Filipino Creators
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Social Stats Section -->
+    <section class="py-lg bg-surface-container-low">
+      <div class="max-w-container-max mx-auto px-gutter">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-md">
+          <div
+            class="glass-card p-lg rounded-lg text-center group hover:bg-white transition-all reveal-item"
+            data-reveal-delay="100"
+          >
+            <span
+              class="material-symbols-outlined text-[48px] mb-base text-[#FF0000]"
+              >play_circle</span
+            >
+            <h3 class="font-display text-headline-md">8.5M</h3>
+            <p class="font-caption text-caption text-on-surface-variant">
+              Local Video Views
+            </p>
+          </div>
+          <div
+            class="glass-card p-lg rounded-lg text-center group hover:bg-white transition-all reveal-item"
+            data-reveal-delay="200"
+          >
+            <span
+              class="material-symbols-outlined text-[48px] mb-base text-[#9146FF]"
+              >stream</span
+            >
+            <h3 class="font-display text-headline-md">3.2K</h3>
+            <p class="font-caption text-caption text-on-surface-variant">
+              Student Creators
+            </p>
+          </div>
+          <div
+            class="glass-card p-lg rounded-lg text-center group hover:bg-white transition-all reveal-item"
+            data-reveal-delay="300"
+          >
+            <span
+              class="material-symbols-outlined text-[48px] mb-base text-[#E4405F]"
+              >camera_enhance</span
+            >
+            <h3 class="font-display text-headline-md">420K</h3>
+            <p class="font-caption text-caption text-on-surface-variant">
+              Social Reach
+            </p>
+          </div>
+          <div
+            class="glass-card p-lg rounded-lg text-center group hover:bg-white transition-all reveal-item"
+            data-reveal-delay="400"
+          >
+            <span
+              class="material-symbols-outlined text-[48px] mb-base text-secondary"
+              >group</span
+            >
+            <h3 class="font-display text-headline-md">15K+</h3>
+            <p class="font-caption text-caption text-on-surface-variant">
+              Community Members
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bento Grid Featured Content -->
+    <section class="py-xl">
+      <div class="max-w-container-max mx-auto px-gutter">
+        <div
+          class="flex flex-col md:flex-row justify-between items-end mb-lg gap-md reveal-item"
+        >
+          <div class="max-w-2xl">
+            <h2 class="font-display text-headline-lg text-on-surface mb-sm">
+              Create with Filipino Flavor
+            </h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant">
+              Explore beginner-friendly creative paths for students, hobbyists,
+              and aspiring Filipino content creators.
+            </p>
+          </div>
+          <button
+            class="text-primary font-label-bold text-label-bold flex items-center gap-xs border-b-2 border-transparent hover:border-primary transition-all"
+          >
+            View Learning Paths
+            <span class="material-symbols-outlined">chevron_right</span>
+          </button>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-12 gap-md h-auto md:h-[600px]"
+        >
+          <!-- Gaming Card -->
+          <div
+            class="md:col-span-8 group relative overflow-hidden rounded-lg reveal-item"
+            data-reveal-delay="100"
+          >
+            <img
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              data-alt="A high-action cinematic screenshot from a modern esports game featuring explosive particle effects and dynamic lighting. The frame is composed with a focus on motion blur and dramatic depth of field, showcasing a vibrant battlefield with glowing greens and deep blacks. The overall mood is high-octane and professional, styled like a high-budget video game cinematic trailer."
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuARB5NaK-iJjAphIC4DpvlMNTjQy7_EeuC-dWqeDlRWUANMwDdWp6JyH_MjhZEG52rXB-FRH361pS_vw2W994oPFgWD9Sz89kUr8-u5wj2fIMONLM8vb6EU1pPjWl8N5A75--YbZYOah_wNjmvPHPM_6Yz0pugvG8EoLUIKCT0_-EBLLFMRQ-7e-SfnH8BNB3WTxaDI-4_wy9OHU1q94w0x-U4J_j1U0_ZB7z7noYweyn6dl5tZxr0tkyO1ds3Sxa0mCj9r_Un6CAOv"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"
+            ></div>
+            <div class="absolute bottom-0 left-0 p-lg w-full">
+              <div class="flex items-center gap-sm mb-sm">
+                <span
+                  class="bg-primary text-on-primary px-sm py-xs rounded-full text-caption font-label-bold"
+                  >GAMING</span
+                >
+                <span class="text-white/80 text-caption font-body-md"
+                  >6 Mini Lessons</span
+                >
+              </div>
+              <h3 class="text-white font-display text-headline-lg mb-base">
+                Campus Motion Editing
+              </h3>
+              <p class="text-white/70 font-body-md max-w-md mb-md">
+                Learn how to edit school events, gaming clips, reels, and
+                short-form stories with a cinematic touch.
+              </p>
+              <a
+                class="bg-white/20 backdrop-blur-md text-white border border-white/30 px-lg py-sm rounded-full hover:bg-white hover:text-black transition-all inline-block"
+                href="startwebsite.html"
+              >
+                Start Learning
+              </a>
+            </div>
+          </div>
+          <!-- Photography Card -->
+          <div
+            class="md:col-span-4 group relative overflow-hidden rounded-lg reveal-item"
+            data-reveal-delay="250"
+          >
+            <img
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              data-alt="A serene and minimalist architectural photograph featuring a modern glass building reflecting a soft pink and blue sunset sky. The composition uses clean geometric lines and deep focus blurs to create a sense of depth and tranquility. The lighting is soft and natural, with high-key whites and subtle tonal gradients that reflect a sophisticated, premium aesthetic."
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPAUJVRANXHmNIk5XU8f5870j-rl4T_pFInGwc3p9vpZqtn2jVh39xBaptJfk1YOX8lo9Uj7KLv7qexgGYGLvD-empfMoLgBIhruBvxwsd6aPgtjoRqW0iXCkAA-_H2x1OvKIR-l57OZXfP720OXHoduPji9xjXIi4uhOvu6YfpTJ3lk03hNGjs0Pd6eD_8bmATgQBhCfiqaXWrlcIP8NjPGvOqBsQI61OLqCVB-K5zb90a-cq8A6Fj4OI80jh6ezh7dkTCanqBdh8"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"
+            ></div>
+            <div class="absolute bottom-0 left-0 p-lg">
+              <span
+                class="bg-secondary text-on-secondary px-sm py-xs rounded-full text-caption font-label-bold mb-sm inline-block"
+                >VISUAL ARTS</span
+              >
+              <h3 class="text-white font-display text-headline-md mb-base">
+                The Art of Local Stories
+              </h3>
+              <p class="text-white/70 font-body-md mb-md">
+                Use light, color, and composition to make everyday Filipino
+                scenes feel cinematic.
+              </p>
+              <button
+                class="text-white font-label-bold text-label-bold flex items-center gap-xs group/btn"
+              >
+                Explore Track
+                <span
+                  class="material-symbols-outlined group-hover/btn:translate-x-1 transition-transform"
+                  >arrow_forward</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Student Inspiration Section -->
+    <section class="py-xl relative overflow-hidden">
+      <div
+        class="absolute inset-0 -z-10 bg-surface-container-low opacity-50"
+      ></div>
+      <div class="max-w-container-max mx-auto px-gutter">
+        <div
+          class="glass-card p-xl rounded-xl border-none relative overflow-hidden reveal-item"
+        >
+          <!-- Decorative background -->
+          <div
+            class="absolute -top-24 -right-24 w-64 h-64 bg-primary-container/30 rounded-full blur-3xl"
+          ></div>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-lg items-center relative z-10"
+          >
+            <div>
+              <h2 class="font-display text-headline-lg text-on-surface mb-md">
+                Built for the Filipino Next Generation
+              </h2>
+              <div class="space-y-md">
+                <div class="flex gap-md reveal-item" data-reveal-delay="100">
+                  <div
+                    class="flex-shrink-0 w-12 h-12 bg-white rounded-lg shadow-sm flex items-center justify-center"
+                  >
+                    <span class="material-symbols-outlined text-primary"
+                      >school</span
+                    >
+                  </div>
+                  <div>
+                    <h4
+                      class="font-display text-headline-md mb-xs text-on-surface"
+                    >
+                      Student-Friendly Learning
+                    </h4>
+                    <p class="font-body-md text-on-surface-variant">
+                      Learn practical tools and creative workflows that students
+                      can apply to portfolios, school projects, and passion
+                      websites.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex gap-md reveal-item" data-reveal-delay="200">
+                  <div
+                    class="flex-shrink-0 w-12 h-12 bg-white rounded-lg shadow-sm flex items-center justify-center"
+                  >
+                    <span class="material-symbols-outlined text-secondary"
+                      >workspace_premium</span
+                    >
+                  </div>
+                  <div>
+                    <h4
+                      class="font-display text-headline-md mb-xs text-on-surface"
+                    >
+                      Portfolio-Ready Output
+                    </h4>
+                    <p class="font-body-md text-on-surface-variant">
+                      Build outputs that can be shown in class, applications,
+                      client pitches, or personal creator portfolios.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="mt-lg hero-gradient text-on-primary px-xl py-4 rounded-full font-label-bold text-label-bold reveal-item inline-block"
+                data-reveal-delay="300"
+                href="startwebsite.html"
+              >
+                Start Your Creative Journey
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-md">
+              <div class="space-y-md pt-lg">
+                <div
+                  class="rounded-lg overflow-hidden h-48 shadow-lg reveal-item"
+                  data-reveal-delay="150"
+                >
+                  <img
+                    class="w-full h-full object-cover"
+                    data-alt="A diverse group of university students collaborating in a modern, bright campus lounge with large windows. They are using high-end laptops and sharing ideas over coffee. The atmosphere is energetic and academically rigorous, with soft daylight and a clean, light-mode palette of whites and soft greys."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYvE8EwrPh4SMtU0owIyfNnm9RVi9cklZFx_wfrbp3qypTTJqZ8XMHk3FycLLli_ENu5_z1kxjagFmdsm3TUmaU4HAHku0IdPmVkzVIDCNXCrYR765MZqA3uPaQgEvR20M8YV_32Idxbp8814d7wU43xp6looz9qxy47p2fp5LXmDqDmY6JUW681DlKC8WO5E6ehhLWRb8RDMf9EI83T9P5eQ8nny7NGHD5y_I7ZIrhGsBjqt3jf3kAxGnZ1_dYUPXcG-5CHQwHFgW"
+                  />
+                </div>
+                <div
+                  class="rounded-lg overflow-hidden h-64 shadow-lg reveal-item"
+                  data-reveal-delay="350"
+                >
+                  <img
+                    class="w-full h-full object-cover"
+                    data-alt="Close up of a hand using a professional digital drawing tablet in a sunlit art studio. The tablet shows a vibrant digital painting of a landscape. The surrounding workspace is organized and features artistic tools and minimalist decor, reflecting a creative and professional visual arts environment."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuATZbDdj3X09sR1FWZZe2lr-vNZlHJd5USrPX5Df09oyF-3YPrXJNwgQ0Th9HYVUUghzVFf4vihVFK0UIG1R8oyMXGKmoG7heSvzah-E7BMPH-2PDgUdIug_-iSbq_npowhEp5CzzihU_z8JS77eQLq7ilJ7CeI1APZUP2UySBRgSYOhxcVfi9HXTOJOnX6zqb9HQOpiHXoomgZrgK6lyWJf5s7qVCvOwH6diDFUL5dwILcFd6a7h6M9Uh75qIySH2z6vRXDLhoi8Ix"
+                  />
+                </div>
+              </div>
+              <div class="space-y-md">
+                <div
+                  class="rounded-lg overflow-hidden h-64 shadow-lg reveal-item"
+                  data-reveal-delay="250"
+                >
+                  <img
+                    class="w-full h-full object-cover"
+                    data-alt="A portrait of a young filmmaker looking through the lens of a professional cinema camera on a bright, outdoor film set. The lighting is golden hour, creating a cinematic and inspirational mood. The background is a soft-focus urban park with lush greenery."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaau6ukoJUxqwrSlBSyNvb7YHAcxREYxnxK5HJ8yPxsU_s18Pw5Ks2jWt1HJGDpbVhRsoEFxjgm3KPyNd0mlzjviZhPtL8olQqHXNo-IL8wV5xmSlFQqB3jv8yPO3pcmloaicfGvnIjRw2zyXNx7TJZvH5ViaX_Ffd1A8SMURIYHxM3PkPwl4Dlc_xgx4eseyXtm_BC3DaTjB9s4eIGqfblXqdMbmWlPTF0PaenDez_6Q9naJJoBd6BlYyifnIf-kVKYpSrmUz2NL-"
+                  />
+                </div>
+                <div
+                  class="rounded-lg overflow-hidden h-48 shadow-lg reveal-item"
+                  data-reveal-delay="450"
+                >
+                  <img
+                    class="w-full h-full object-cover"
+                    data-alt="A modern edit suite featuring high-end sound equipment and acoustic treatments. A creative professional is adjusting faders on a mixing console. The scene is lit with subtle green and blue ambient light, emphasizing a high-tech, cinematic production atmosphere."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEs6x80ZbfeLb9LS_i8W1xeQJnnWNcT5AT0VwyYkDdlG5NH_6Xr1m86dzUhB8YzXcwdMMqr7gR8B8W_k3ZjWkkNti-BJCBlkvnI4uTjLYnRLVW0CXPQm36S76t0BP3hKGY4Z3YdOGPBeLP06t9D4NBuwxq8FIO5iypY9pL6x5m8eg_LzWRSxDzVlAE_fisphCA6xn2S62J0ktSbgjXN-x9vrYPf7QThj3IZD9RHACp76bIjKVJKotKKXWGCHUXXCeZ1pDTPuEjjzAC"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Creator Highlights -->
+    <section class="py-xl">
+      <div class="max-w-container-max mx-auto px-gutter">
+        <div class="text-center mb-xl reveal-item">
+          <h2 class="font-display text-headline-lg text-on-surface">
+            Meet the Filipino Creators
+          </h2>
+          <p
+            class="font-body-lg text-on-surface-variant max-w-xl mx-auto mt-base"
+          >
+            Learn from creator personas inspired by Filipino students,
+            designers, editors, and storytellers.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-lg">
+          <!-- Creator 1 -->
+          <div class="group cursor-pointer reveal-item" data-reveal-delay="100">
+            <div
+              class="aspect-[4/5] rounded-lg overflow-hidden mb-md shadow-xl relative"
+            >
+              <img
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                data-alt="Portrait of a renowned gaming creator with intense lighting and a dark background. He is wearing a professional headset, and his face is partially illuminated by the glow of a computer monitor. The style is sharp and high-contrast, reflecting the competitive world of professional gaming."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAahfBtKAnE-dmdnEt-V8Fq5tMBnwqt32k4-gLXgblH_erzgpp9HszZf2pu0dmNw2wZPkvzgtuF8smqP725STLzD9AW7PUR-ggVQoHfRTZ8UjPLyMEIAuNp_mUnWk87ZCmFpeCro3j_eT_4Y2EMHX7U2lBoysO24bviEeDSORqqyDO7DkKtI4UjXcDrdHv81ihzgAKuSv_uFfxayW6iEwHKy1gk2e2MtC6N0NAQQPm4Ya4aMtagk5VL-XPkLNHcC0mk9Md_yaPuke9d"
+              />
+              <div
+                class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"
+              ></div>
+            </div>
+            <h4 class="font-display text-headline-md text-on-surface">
+              Miguel Santos
+            </h4>
+            <p
+              class="font-caption text-caption text-on-surface-variant uppercase tracking-widest mb-xs"
+            >
+              Gaming &amp; Stream Mentor
+            </p>
+            <div class="flex gap-xs text-primary">
+              <span class="material-symbols-outlined text-[18px]"
+                >verified</span
+              >
+              <span class="font-label-bold text-label-bold"
+                >240K Followers</span
+              >
+            </div>
+          </div>
+          <!-- Creator 2 -->
+          <div class="group cursor-pointer reveal-item" data-reveal-delay="200">
+            <div
+              class="aspect-[4/5] rounded-lg overflow-hidden mb-md shadow-xl relative"
+            >
+              <img
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                data-alt="A high-fashion portrait of a female cinematographer in a minimalist, modern studio. She is holding a vintage-style cinema lens. The lighting is sophisticated, with soft shadows and elegant highlights on a neutral grey background, creating a premium and professional mood."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlm2_exIMWbs-JBY6ihallvYG_HbP_FfPU93aJtwbAh-Yj8p119cvft8jeiNlyOnG-dF25JZ7b7IrsK_U3FOAdcivc0ne8zIkMiFKoi_D2kw4OlO8snycptPKUYnZYeQv74KS0f5tAXTUtmq5oLSlCuY9BnJq5XwpBNhXmgPJx_Hsh8cXHzk_i76yUqMTY9TDb_vkpnVUlb5-6gQsfktIb5C_inzMa_S6_sKrqbSBjd57F14aIntzsPtkoKm62Ozl0tRdm2QEUxCdu"
+              />
+              <div
+                class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"
+              ></div>
+            </div>
+            <h4 class="font-display text-headline-md text-on-surface">
+              Bianca Reyes
+            </h4>
+            <p
+              class="font-caption text-caption text-on-surface-variant uppercase tracking-widest mb-xs"
+            >
+              Short Film Mentor
+            </p>
+            <div class="flex gap-xs text-primary">
+              <span class="material-symbols-outlined text-[18px]"
+                >verified</span
+              >
+              <span class="font-label-bold text-label-bold">85K Followers</span>
+            </div>
+          </div>
+          <!-- Creator 3 -->
+          <div class="group cursor-pointer reveal-item" data-reveal-delay="300">
+            <div
+              class="aspect-[4/5] rounded-lg overflow-hidden mb-md shadow-xl relative"
+            >
+              <img
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                data-alt="Portrait of a visionary digital artist surrounded by floating holographic interfaces. The setting is a dark, futuristic design lab. The lighting is vibrant with electric greens and deep teals, creating a sense of technological advancement and creative ambition."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_kUVeC5vt4X19-1ZFsqSiczEADAoh8A9F4ldnXMkeSfvYal-BajPRBE7RfKhW1fa42IY2YS5e2MGs2FdxUhOR7Fp94Gu34A8EezwY03hAduY2_1R5l1HNFJ6Xs71lunwu7n3UV_MuDmG0yd6sGb6eJr4SlO67cb8-RgZN7tr53JEPQu6J9rG83dA8i1CR04-ymo7OcaI4e8bNjGuhcgl2GE4st7_k-HJi_ZY9OvIRtdXkptXLGdKU1jKXYUpTs1C9PC2Qwr1Q9Z5A"
+              />
+              <div
+                class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"
+              ></div>
+            </div>
+            <h4 class="font-display text-headline-md text-on-surface">
+              Arman Dela Cruz
+            </h4>
+            <p
+              class="font-caption text-caption text-on-surface-variant uppercase tracking-widest mb-xs"
+            >
+              Motion Graphics Mentor
+            </p>
+            <div class="flex gap-xs text-primary">
+              <span class="material-symbols-outlined text-[18px]"
+                >verified</span
+              >
+              <span class="font-label-bold text-label-bold"
+                >110K Followers</span
+              >
+            </div>
+          </div>
+          <!-- Creator 4 -->
+          <div class="group cursor-pointer reveal-item" data-reveal-delay="400">
+            <div
+              class="aspect-[4/5] rounded-lg overflow-hidden mb-md shadow-xl relative"
+            >
+              <img
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                data-alt="A portrait of a minimalist photographer standing in a stark, brutalist architectural setting. He is carrying a sleek, modern camera bag. The composition is clean and geometric, using natural lighting to emphasize textures of concrete and shadow."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDN1jEwwP8MdvkpH5TRfqwwdDbUh9MOU6nivMc5SV-B4DJXzGyQsPZ8_k5rZ0P95nRt8lshdPpOOY8zjOOcQtHTFus_flFPYajCaPMmTf9oKU0AmuUnL1fTw1_8se0sOdaHki1yKdUxzkotZ_M7_Gxq8lG62Ge4rRlJ3vjdlJS4oMK9BOiA6OSTWvzZtYYpT0AzR-yMAUUol3PT4a7_5vWjf0MPyB-nvCLsn_iUIs1n1GxQLOAg6cAIJURCN81cXDAkSuUfPMamigrx"
+              />
+              <div
+                class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"
+              ></div>
+            </div>
+            <h4 class="font-display text-headline-md text-on-surface">
+              Lia Mendoza
+            </h4>
+            <p
+              class="font-caption text-caption text-on-surface-variant uppercase tracking-widest mb-xs"
+            >
+              Campus Photography
+            </p>
+            <div class="flex gap-xs text-primary">
+              <span class="material-symbols-outlined text-[18px]"
+                >verified</span
+              >
+              <span class="font-label-bold text-label-bold">50K Followers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer
+      class="bg-surface-container-low dark:bg-inverse-surface w-full py-xl"
+    >
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 gap-lg px-gutter max-w-container-max mx-auto"
+      >
+        <div class="col-span-1 md:col-span-1">
+          <div
+            class="font-display text-headline-md font-bold text-on-surface mb-md"
+          >
+            NEXTFRAME
+          </div>
+          <p class="font-body-md text-on-surface-variant mb-md">
+            Empowering Filipino students and young creators to tell stories that
+            matter.
+          </p>
+          <div class="flex gap-md">
+            <span
+              class="material-symbols-outlined text-primary cursor-pointer hover:scale-110 transition-transform"
+              >public</span
+            >
+            <span
+              class="material-symbols-outlined text-primary cursor-pointer hover:scale-110 transition-transform"
+              >alternate_email</span
+            >
+            <span
+              class="material-symbols-outlined text-primary cursor-pointer hover:scale-110 transition-transform"
+              >share</span
+            >
+          </div>
+        </div>
+        <div>
+          <h5
+            class="font-label-bold text-label-bold text-on-surface mb-md uppercase tracking-widest"
+          >
+            Platform
+          </h5>
+          <ul class="space-y-sm">
+            <li>
+              <a
+                class="font-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="startwebsite.html"
+                >Workshops</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="contact.html"
+                >Community</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="blog.html"
+                >Resources</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="about.html"
+                >Mentors</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5
+            class="font-label-bold text-label-bold text-on-surface mb-md uppercase tracking-widest"
+          >
+            Company
+          </h5>
+          <ul class="space-y-sm">
+            <li>
+              <a
+                class="font-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="contact.html"
+                >Collaborate</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="contact.html"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="contact.html"
+                >Terms of Service</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5
+            class="font-label-bold text-label-bold text-on-surface mb-md uppercase tracking-widest"
+          >
+            Social
+          </h5>
+          <ul class="space-y-sm">
+            <li>
+              <a
+                class="font-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="#"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="#"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="#"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="#"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="max-w-container-max mx-auto px-gutter mt-xl pt-lg border-t border-outline-variant text-center"
+      >
+        <p class="font-body-md text-on-surface-variant">
+          © 2026 NEXTFRAME. Create. Share. Inspire.
+        </p>
+        <p class="font-body-md text-on-surface-variant">
+          iACADEMY Webinar Series | Ryan Azur
+        </p>
+      </div>
+    </footer>
+    <!-- FAB -->
+    <div class="fixed bottom-gutter right-gutter z-40">
+      <a
+        class="w-16 h-16 rounded-full hero-gradient text-white shadow-xl flex items-center justify-center hover:scale-110 transition-transform active:scale-95 group"
+        href="startwebsite.html"
+      >
+        <span class="material-symbols-outlined text-[32px]">add</span>
+        <span
+          class="absolute right-full mr-md bg-on-surface text-surface px-md py-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none"
+          >Start Creating</span
+        >
+      </a>
+    </div>
+
+    <script src="script/script.js" defer></script>
+  </body>
+</html>
